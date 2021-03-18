@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name splotch.pretty)(type KiCad)(uri /Users/bcurran/git/mutualaid/splotch/pcb-left/../splotch.pretty)(options "")(descr ""))
+)

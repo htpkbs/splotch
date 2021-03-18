@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name splotch)(type Legacy)(uri /Users/bcurran/git/mutualaid/splotch/pcb-left/../splotch.lib)(options "")(descr ""))
+)
