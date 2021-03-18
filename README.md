@@ -32,6 +32,10 @@ This is the corresponding data for pasting into Keyboard Layout Editor:
 
 ![Right PCB front](assets/front-right.png)
 
+# Case/Back Plates
+
+There are no plate or full case files (sandwich style is hard with exposed components...),,but there are some DXF files to print back plates for each half. You can mount the PCBs to these back plates using M2 size screws and standoffs. [Here is the file for the left back plate](assets/case-left.dxf) and [here is the file for the right back plate](assets/case-right.dxf).
+
 # Schematic
 
 There is a PDF of the [schematic of the left half here](assets/schematic-left.pdf) and the [schematic of the right half here](assets/schematic-right.pdf).
