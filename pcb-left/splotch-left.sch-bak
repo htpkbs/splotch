@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "splotch-left"
 Date ""
-Rev ""
+Rev "v1"
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "https://github.com/htpkbs/splotch/blob/main/LICENSE"
+Comment3 "License: BSD 2-Clause"
+Comment4 "info@htpkbs.com"
 $EndDescr
 NoConn ~ 1600 1550
 $Comp
@@ -136,7 +136,7 @@ Connection ~ 4250 2350
 Wire Wire Line
 	2200 4250 2200 4350
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L splotch-left-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 60506453
 P 8650 2050
 F 0 "J1" H 8757 2917 50  0000 C CNN
@@ -1175,9 +1175,9 @@ Text Label 2800 3650 0    50   ~ 0
 Row2
 Text Label 2800 3850 0    50   ~ 0
 Row3
-Text Label 2800 2750 0    50   ~ 0
+Text Label 2800 1650 0    50   ~ 0
 Col1
-Text Label 2800 2650 0    50   ~ 0
+Text Label 2800 1750 0    50   ~ 0
 Col2
 $Comp
 L splotch:SJ-43514 J2
@@ -1348,9 +1348,9 @@ Text Label 2800 3950 0    50   ~ 0
 Row4
 Text Label 2800 1550 0    50   ~ 0
 Row5
-Text Label 2800 1750 0    50   ~ 0
+Text Label 2800 2650 0    50   ~ 0
 Col5
-Text Label 2800 1650 0    50   ~ 0
+Text Label 2800 2750 0    50   ~ 0
 Col6
 Wire Wire Line
 	4800 5800 5150 5800
@@ -1369,11 +1369,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 4900 4950 5400
 Connection ~ 4950 4900
-Text Label 2800 3250 0    50   ~ 0
-Serial
-Text Label 1900 5650 0    50   ~ 0
-Serial
-NoConn ~ 1900 5850
 Text Label 2800 3750 0    50   ~ 0
 Boot
 $Comp
@@ -1507,10 +1502,98 @@ Wire Wire Line
 Wire Wire Line
 	9750 950  9750 800 
 Connection ~ 9450 950 
-Text Label 2800 2550 0    50   ~ 0
-Col3
 Text Label 2800 2450 0    50   ~ 0
+Col3
+Text Label 2800 2550 0    50   ~ 0
 Col4
-NoConn ~ 2800 2850
-NoConn ~ 2800 2950
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60530DF5
+P 4800 6600
+F 0 "H1" H 4900 6646 50  0000 L CNN
+F 1 "MountingHole" H 4900 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6600 50  0001 C CNN
+F 3 "~" H 4800 6600 50  0001 C CNN
+	1    4800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60531FD6
+P 4800 6800
+F 0 "H2" H 4900 6846 50  0000 L CNN
+F 1 "MountingHole" H 4900 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6800 50  0001 C CNN
+F 3 "~" H 4800 6800 50  0001 C CNN
+	1    4800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6053213A
+P 4800 7000
+F 0 "H3" H 4900 7046 50  0000 L CNN
+F 1 "MountingHole" H 4900 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7000 50  0001 C CNN
+F 3 "~" H 4800 7000 50  0001 C CNN
+	1    4800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60532283
+P 5550 6600
+F 0 "H4" H 5650 6646 50  0000 L CNN
+F 1 "MountingHole" H 5650 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 6600 50  0001 C CNN
+F 3 "~" H 5550 6600 50  0001 C CNN
+	1    5550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 605325F7
+P 5550 6800
+F 0 "H5" H 5650 6846 50  0000 L CNN
+F 1 "MountingHole" H 5650 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 6800 50  0001 C CNN
+F 3 "~" H 5550 6800 50  0001 C CNN
+	1    5550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6053291F
+P 5550 7000
+F 0 "H6" H 5650 7046 50  0000 L CNN
+F 1 "MountingHole" H 5650 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 7000 50  0001 C CNN
+F 3 "~" H 5550 7000 50  0001 C CNN
+	1    5550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60550857
+P 8000 2900
+F 0 "#FLG0102" H 8000 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8000 3073 50  0000 C CNN
+F 2 "" H 8000 2900 50  0001 C CNN
+F 3 "~" H 8000 2900 50  0001 C CNN
+	1    8000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2900 8000 3050
+Wire Wire Line
+	8000 3050 8350 3050
+NoConn ~ 2800 3250
+Text Label 2800 2950 0    50   ~ 0
+SCL
+Text Label 2800 2850 0    50   ~ 0
+SDA
+Text Label 1900 5850 0    50   ~ 0
+SCL
+Text Label 1900 5650 0    50   ~ 0
+SDA
 $EndSCHEMATC

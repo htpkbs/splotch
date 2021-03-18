@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name splotch)(type Legacy)(uri /Users/bcurran/git/mutualaid/splotch/pcb-left/../splotch.lib)(options "")(descr ""))
+  (lib (name splotch)(type Legacy)(uri ${KIPRJMOD}/../splotch.lib)(options "")(descr ""))
+  (lib (name splotch-left-rescue)(type Legacy)(uri ${KIPRJMOD}/splotch-left-rescue.lib)(options "")(descr ""))
 )

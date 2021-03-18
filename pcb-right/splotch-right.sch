@@ -1,4 +1,1386 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "splotch-right"
+Date ""
+Rev "v1"
+Comp ""
+Comment1 ""
+Comment2 "https://github.com/htpkbs/splotch/blob/main/LICENSE"
+Comment3 "License: BSD 2-Clause"
+Comment4 "info@htpkbs.com"
+$EndDescr
+$Comp
+L splotch:MX-NoLED SW1
+U 1 1 6052B1C2
+P 4550 3450
+F 0 "SW1" V 4564 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 4638 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 3925 3425 60  0001 C CNN
+F 3 "" H 3925 3425 60  0001 C CNN
+	1    4550 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW2
+U 1 1 6052C1DC
+P 5100 3450
+F 0 "SW2" V 5114 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 3425 60  0001 C CNN
+F 3 "" H 4475 3425 60  0001 C CNN
+	1    5100 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW3
+U 1 1 6052CAD4
+P 5650 3450
+F 0 "SW3" V 5664 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 5738 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5025 3425 60  0001 C CNN
+F 3 "" H 5025 3425 60  0001 C CNN
+	1    5650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW4
+U 1 1 6052CD2F
+P 6200 3450
+F 0 "SW4" V 6214 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 6288 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5575 3425 60  0001 C CNN
+F 3 "" H 5575 3425 60  0001 C CNN
+	1    6200 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW5
+U 1 1 6052CF97
+P 6750 3450
+F 0 "SW5" V 6764 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 6838 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6125 3425 60  0001 C CNN
+F 3 "" H 6125 3425 60  0001 C CNN
+	1    6750 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW6
+U 1 1 6052D11E
+P 7300 3450
+F 0 "SW6" V 7314 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6675 3425 60  0001 C CNN
+F 3 "" H 6675 3425 60  0001 C CNN
+	1    7300 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW7
+U 1 1 6052D2A5
+P 7850 3450
+F 0 "SW7" V 7864 3578 60  0000 L CNN
+F 1 "MX-NoLED" V 7938 3578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 7225 3425 60  0001 C CNN
+F 3 "" H 7225 3425 60  0001 C CNN
+	1    7850 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 6052DD25
+P 4600 3700
+F 0 "D1" V 4646 3630 50  0000 R CNN
+F 1 "1N4148" V 4555 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 4600 3700 50  0001 C CNN
+F 3 "~" V 4600 3700 50  0001 C CNN
+	1    4600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 6052DF49
+P 5150 3700
+F 0 "D2" V 5196 3630 50  0000 R CNN
+F 1 "1N4148" V 5105 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 3700 50  0001 C CNN
+F 3 "~" V 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 6052E11C
+P 5700 3700
+F 0 "D3" V 5746 3630 50  0000 R CNN
+F 1 "1N4148" V 5655 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5700 3700 50  0001 C CNN
+F 3 "~" V 5700 3700 50  0001 C CNN
+	1    5700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 6052E2B3
+P 6250 3700
+F 0 "D4" V 6296 3630 50  0000 R CNN
+F 1 "1N4148" V 6205 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6250 3700 50  0001 C CNN
+F 3 "~" V 6250 3700 50  0001 C CNN
+	1    6250 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 6052E486
+P 6800 3700
+F 0 "D5" V 6846 3630 50  0000 R CNN
+F 1 "1N4148" V 6755 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6800 3700 50  0001 C CNN
+F 3 "~" V 6800 3700 50  0001 C CNN
+	1    6800 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 6052E61D
+P 7350 3700
+F 0 "D6" V 7396 3630 50  0000 R CNN
+F 1 "1N4148" V 7305 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7350 3700 50  0001 C CNN
+F 3 "~" V 7350 3700 50  0001 C CNN
+	1    7350 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW8
+U 1 1 6052E864
+P 4550 3950
+F 0 "SW8" V 4564 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 4638 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 3925 3925 60  0001 C CNN
+F 3 "" H 3925 3925 60  0001 C CNN
+	1    4550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW9
+U 1 1 6052E9EB
+P 5100 3950
+F 0 "SW9" V 5114 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 3925 60  0001 C CNN
+F 3 "" H 4475 3925 60  0001 C CNN
+	1    5100 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW10
+U 1 1 6052EB72
+P 5650 3950
+F 0 "SW10" V 5664 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 5738 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5025 3925 60  0001 C CNN
+F 3 "" H 5025 3925 60  0001 C CNN
+	1    5650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW11
+U 1 1 6052ECF9
+P 6200 3950
+F 0 "SW11" V 6214 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 6288 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5575 3925 60  0001 C CNN
+F 3 "" H 5575 3925 60  0001 C CNN
+	1    6200 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW12
+U 1 1 6052EE80
+P 6750 3950
+F 0 "SW12" V 6764 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 6838 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6125 3925 60  0001 C CNN
+F 3 "" H 6125 3925 60  0001 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW13
+U 1 1 6052F007
+P 7300 3950
+F 0 "SW13" V 7314 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6675 3925 60  0001 C CNN
+F 3 "" H 6675 3925 60  0001 C CNN
+	1    7300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 6052F800
+P 7900 3700
+F 0 "D7" V 7946 3630 50  0000 R CNN
+F 1 "1N4148" V 7855 3630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7900 3700 50  0001 C CNN
+F 3 "~" V 7900 3700 50  0001 C CNN
+	1    7900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 6052F979
+P 4600 4200
+F 0 "D8" V 4646 4130 50  0000 R CNN
+F 1 "1N4148" V 4555 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 4600 4200 50  0001 C CNN
+F 3 "~" V 4600 4200 50  0001 C CNN
+	1    4600 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 6052FB4C
+P 5150 4200
+F 0 "D9" V 5196 4130 50  0000 R CNN
+F 1 "1N4148" V 5105 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 4200 50  0001 C CNN
+F 3 "~" V 5150 4200 50  0001 C CNN
+	1    5150 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 6052FCE3
+P 5700 4200
+F 0 "D10" V 5746 4130 50  0000 R CNN
+F 1 "1N4148" V 5655 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5700 4200 50  0001 C CNN
+F 3 "~" V 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 6052FE7A
+P 6250 4200
+F 0 "D11" V 6296 4130 50  0000 R CNN
+F 1 "1N4148" V 6205 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6250 4200 50  0001 C CNN
+F 3 "~" V 6250 4200 50  0001 C CNN
+	1    6250 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 60530011
+P 6800 4200
+F 0 "D12" V 6846 4130 50  0000 R CNN
+F 1 "1N4148" V 6755 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6800 4200 50  0001 C CNN
+F 3 "~" V 6800 4200 50  0001 C CNN
+	1    6800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW14
+U 1 1 60530228
+P 7850 3950
+F 0 "SW14" V 7864 4078 60  0000 L CNN
+F 1 "MX-NoLED" V 7938 4078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 7225 3925 60  0001 C CNN
+F 3 "" H 7225 3925 60  0001 C CNN
+	1    7850 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW15
+U 1 1 605303AF
+P 4550 4450
+F 0 "SW15" V 4564 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 4638 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 3925 4425 60  0001 C CNN
+F 3 "" H 3925 4425 60  0001 C CNN
+	1    4550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW16
+U 1 1 60530572
+P 5100 4450
+F 0 "SW16" V 5114 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 4425 60  0001 C CNN
+F 3 "" H 4475 4425 60  0001 C CNN
+	1    5100 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW17
+U 1 1 605306F9
+P 5650 4450
+F 0 "SW17" V 5664 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 5738 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5025 4425 60  0001 C CNN
+F 3 "" H 5025 4425 60  0001 C CNN
+	1    5650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW18
+U 1 1 60530880
+P 6200 4450
+F 0 "SW18" V 6214 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 6288 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5575 4425 60  0001 C CNN
+F 3 "" H 5575 4425 60  0001 C CNN
+	1    6200 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 60530A07
+P 7350 4200
+F 0 "D13" V 7396 4130 50  0000 R CNN
+F 1 "1N4148" V 7305 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7350 4200 50  0001 C CNN
+F 3 "~" V 7350 4200 50  0001 C CNN
+	1    7350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 60530B80
+P 7900 4200
+F 0 "D14" V 7946 4130 50  0000 R CNN
+F 1 "1N4148" V 7855 4130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7900 4200 50  0001 C CNN
+F 3 "~" V 7900 4200 50  0001 C CNN
+	1    7900 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 60530D17
+P 4600 4700
+F 0 "D15" V 4646 4630 50  0000 R CNN
+F 1 "1N4148" V 4555 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 4600 4700 50  0001 C CNN
+F 3 "~" V 4600 4700 50  0001 C CNN
+	1    4600 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 60530EAE
+P 5150 4700
+F 0 "D16" V 5196 4630 50  0000 R CNN
+F 1 "1N4148" V 5105 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 4700 50  0001 C CNN
+F 3 "~" V 5150 4700 50  0001 C CNN
+	1    5150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 60531045
+P 5700 4700
+F 0 "D17" V 5746 4630 50  0000 R CNN
+F 1 "1N4148" V 5655 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5700 4700 50  0001 C CNN
+F 3 "~" V 5700 4700 50  0001 C CNN
+	1    5700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 605311DC
+P 6250 4700
+F 0 "D18" V 6296 4630 50  0000 R CNN
+F 1 "1N4148" V 6205 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6250 4700 50  0001 C CNN
+F 3 "~" V 6250 4700 50  0001 C CNN
+	1    6250 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW19
+U 1 1 60531373
+P 6750 4450
+F 0 "SW19" V 6764 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 6838 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6125 4425 60  0001 C CNN
+F 3 "" H 6125 4425 60  0001 C CNN
+	1    6750 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW20
+U 1 1 605314DC
+P 7300 4450
+F 0 "SW20" V 7314 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6675 4425 60  0001 C CNN
+F 3 "" H 6675 4425 60  0001 C CNN
+	1    7300 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW21
+U 1 1 6053169F
+P 7850 4450
+F 0 "SW21" V 7864 4578 60  0000 L CNN
+F 1 "MX-NoLED" V 7938 4578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 7225 4425 60  0001 C CNN
+F 3 "" H 7225 4425 60  0001 C CNN
+	1    7850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW22
+U 1 1 60531826
+P 4550 4950
+F 0 "SW22" V 4564 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 4638 5078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 3925 4925 60  0001 C CNN
+F 3 "" H 3925 4925 60  0001 C CNN
+	1    4550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW23
+U 1 1 605319AD
+P 5100 4950
+F 0 "SW23" V 5114 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 5078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 4925 60  0001 C CNN
+F 3 "" H 4475 4925 60  0001 C CNN
+	1    5100 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW24
+U 1 1 60531B70
+P 5650 4950
+F 0 "SW24" V 5664 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 5738 5078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5025 4925 60  0001 C CNN
+F 3 "" H 5025 4925 60  0001 C CNN
+	1    5650 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 60531CF7
+P 6800 4700
+F 0 "D19" V 6846 4630 50  0000 R CNN
+F 1 "1N4148" V 6755 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6800 4700 50  0001 C CNN
+F 3 "~" V 6800 4700 50  0001 C CNN
+	1    6800 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 60531E70
+P 7350 4700
+F 0 "D20" V 7396 4630 50  0000 R CNN
+F 1 "1N4148" V 7305 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7350 4700 50  0001 C CNN
+F 3 "~" V 7350 4700 50  0001 C CNN
+	1    7350 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 60532007
+P 7900 4700
+F 0 "D21" V 7946 4630 50  0000 R CNN
+F 1 "1N4148" V 7855 4630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7900 4700 50  0001 C CNN
+F 3 "~" V 7900 4700 50  0001 C CNN
+	1    7900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 6053219E
+P 4600 5200
+F 0 "D22" V 4646 5130 50  0000 R CNN
+F 1 "1N4148" V 4555 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 4600 5200 50  0001 C CNN
+F 3 "~" V 4600 5200 50  0001 C CNN
+	1    4600 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 60532335
+P 5150 5200
+F 0 "D23" V 5196 5130 50  0000 R CNN
+F 1 "1N4148" V 5105 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 5200 50  0001 C CNN
+F 3 "~" V 5150 5200 50  0001 C CNN
+	1    5150 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 605324CC
+P 5700 5200
+F 0 "D24" V 5746 5130 50  0000 R CNN
+F 1 "1N4148" V 5655 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5700 5200 50  0001 C CNN
+F 3 "~" V 5700 5200 50  0001 C CNN
+	1    5700 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW25
+U 1 1 60544FA0
+P 6200 4950
+F 0 "SW25" V 6214 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 6288 5078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5575 4925 60  0001 C CNN
+F 3 "" H 5575 4925 60  0001 C CNN
+	1    6200 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW26
+U 1 1 60545145
+P 6750 4950
+F 0 "SW26" V 6764 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 6838 5078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6125 4925 60  0001 C CNN
+F 3 "" H 6125 4925 60  0001 C CNN
+	1    6750 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW27
+U 1 1 605452EA
+P 7300 4950
+F 0 "SW27" V 7314 5078 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 5078 20  0000 L CNN
+F 2 "splotch:MX-1.25U-NoLED" H 6675 4925 60  0001 C CNN
+F 3 "" H 6675 4925 60  0001 C CNN
+	1    7300 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW29
+U 1 1 605454AD
+P 5100 5450
+F 0 "SW29" V 5114 5578 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 5578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 5425 60  0001 C CNN
+F 3 "" H 4475 5425 60  0001 C CNN
+	1    5100 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW30
+U 1 1 60545634
+P 5650 5450
+F 0 "SW30" V 5664 5578 60  0000 L CNN
+F 1 "MX-NoLED" V 5738 5578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5025 5425 60  0001 C CNN
+F 3 "" H 5025 5425 60  0001 C CNN
+	1    5650 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 3200 4400 3400
+Connection ~ 4400 3400
+Wire Wire Line
+	4400 3400 4400 3900
+Connection ~ 4400 3900
+Wire Wire Line
+	4400 3900 4400 4400
+Connection ~ 4400 4400
+Wire Wire Line
+	4400 4400 4400 4900
+Wire Wire Line
+	4950 3200 4950 3400
+Connection ~ 4950 3400
+Wire Wire Line
+	4950 3400 4950 3900
+Connection ~ 4950 3900
+Wire Wire Line
+	4950 3900 4950 4400
+Connection ~ 4950 4400
+Wire Wire Line
+	4950 4400 4950 4900
+Wire Wire Line
+	5500 3200 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5500 3400 5500 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 3900 5500 4400
+Connection ~ 5500 4400
+Wire Wire Line
+	5500 4400 5500 4900
+Connection ~ 5500 4900
+Wire Wire Line
+	5500 4900 5500 5400
+Wire Wire Line
+	6050 3200 6050 3400
+Connection ~ 6050 3400
+Wire Wire Line
+	6050 3400 6050 3900
+Connection ~ 6050 3900
+Wire Wire Line
+	6050 3900 6050 4400
+Connection ~ 6050 4400
+Wire Wire Line
+	6050 4400 6050 4900
+Connection ~ 6050 4900
+Wire Wire Line
+	6050 4900 6050 5400
+Connection ~ 6600 3400
+Wire Wire Line
+	6600 3400 6600 3200
+Connection ~ 6600 3900
+Wire Wire Line
+	6600 3900 6600 3400
+Connection ~ 6600 4400
+Wire Wire Line
+	6600 4400 6600 3900
+Connection ~ 6600 4900
+Wire Wire Line
+	6600 4900 6600 4400
+Wire Wire Line
+	7150 3200 7150 3400
+Connection ~ 7150 3400
+Wire Wire Line
+	7150 3400 7150 3900
+Connection ~ 7150 3900
+Wire Wire Line
+	7150 3900 7150 4400
+Connection ~ 7150 4400
+Wire Wire Line
+	7150 4400 7150 4900
+Wire Wire Line
+	4200 3800 4600 3800
+Connection ~ 4600 3800
+Wire Wire Line
+	4600 3800 5150 3800
+Connection ~ 5150 3800
+Wire Wire Line
+	5150 3800 5700 3800
+Connection ~ 5700 3800
+Wire Wire Line
+	5700 3800 6250 3800
+Connection ~ 6250 3800
+Wire Wire Line
+	6250 3800 6800 3800
+Connection ~ 6800 3800
+Wire Wire Line
+	6800 3800 7350 3800
+Wire Wire Line
+	4200 4300 4600 4300
+Connection ~ 4600 4300
+Wire Wire Line
+	4600 4300 5150 4300
+Connection ~ 5150 4300
+Wire Wire Line
+	5150 4300 5700 4300
+Connection ~ 5700 4300
+Wire Wire Line
+	5700 4300 6250 4300
+Connection ~ 6250 4300
+Wire Wire Line
+	6250 4300 6800 4300
+Connection ~ 6800 4300
+Wire Wire Line
+	6800 4300 7350 4300
+Wire Wire Line
+	4200 4800 4600 4800
+Connection ~ 4600 4800
+Wire Wire Line
+	4600 4800 5150 4800
+Connection ~ 5150 4800
+Wire Wire Line
+	5150 4800 5700 4800
+Connection ~ 5700 4800
+Wire Wire Line
+	5700 4800 6250 4800
+Connection ~ 6250 4800
+Wire Wire Line
+	6250 4800 6800 4800
+Connection ~ 6800 4800
+Wire Wire Line
+	6800 4800 7350 4800
+Wire Wire Line
+	4200 5300 4600 5300
+Connection ~ 4600 5300
+Wire Wire Line
+	4600 5300 5150 5300
+Connection ~ 5150 5300
+Wire Wire Line
+	5150 5300 5700 5300
+Connection ~ 5700 5300
+Wire Wire Line
+	5700 5300 6250 5300
+Connection ~ 6250 5300
+Wire Wire Line
+	6250 5300 6800 5300
+Connection ~ 6800 5300
+Wire Wire Line
+	6800 5300 7350 5300
+$Comp
+L Device:D_Small D25
+U 1 1 60562956
+P 6250 5200
+F 0 "D25" V 6296 5130 50  0000 R CNN
+F 1 "1N4148" V 6205 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6250 5200 50  0001 C CNN
+F 3 "~" V 6250 5200 50  0001 C CNN
+	1    6250 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 60562FC5
+P 6800 5200
+F 0 "D26" V 6846 5130 50  0000 R CNN
+F 1 "1N4148" V 6755 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6800 5200 50  0001 C CNN
+F 3 "~" V 6800 5200 50  0001 C CNN
+	1    6800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 605633F5
+P 7350 5200
+F 0 "D27" V 7396 5130 50  0000 R CNN
+F 1 "1N4148" V 7305 5130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7350 5200 50  0001 C CNN
+F 3 "~" V 7350 5200 50  0001 C CNN
+	1    7350 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 60563938
+P 5150 5700
+F 0 "D29" V 5196 5630 50  0000 R CNN
+F 1 "1N4148" V 5105 5630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 5700 50  0001 C CNN
+F 3 "~" V 5150 5700 50  0001 C CNN
+	1    5150 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 6056B776
+P 5700 5700
+F 0 "D30" V 5746 5630 50  0000 R CNN
+F 1 "1N4148" V 5655 5630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5700 5700 50  0001 C CNN
+F 3 "~" V 5700 5700 50  0001 C CNN
+	1    5700 5700
+	0    -1   -1   0   
+$EndComp
+Text Label 4200 3800 2    50   ~ 0
+Row1
+Text Label 4200 4300 2    50   ~ 0
+Row2
+Text Label 4200 4800 2    50   ~ 0
+Row3
+Text Label 4200 5300 2    50   ~ 0
+Row4
+Text Label 4200 5800 2    50   ~ 0
+Row5
+Text Label 4400 3200 1    50   ~ 0
+Col1
+Text Label 4950 3200 1    50   ~ 0
+Col2
+Text Label 5500 3200 1    50   ~ 0
+Col3
+Text Label 6050 3200 1    50   ~ 0
+Col4
+Text Label 6600 3200 1    50   ~ 0
+Col5
+Text Label 7150 3200 1    50   ~ 0
+Col6
+$Comp
+L splotch:SJ-43514 J2
+U 1 1 6058398E
+P 1500 5750
+F 0 "J2" H 1557 6217 50  0000 C CNN
+F 1 "SJ-43514" H 1557 6126 50  0000 C CNN
+F 2 "splotch:CUI_SJ-43514" H 1500 5750 50  0001 L BNN
+F 3 "1.04" H 1500 5750 50  0001 L BNN
+F 4 "CUI INC" H 1500 5750 50  0001 L BNN "Field4"
+F 5 "MANUFACTURER RECOMMENDATIONS" H 1500 5750 50  0001 L BNN "Field5"
+	1    1500 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6050 2000 5950
+Wire Wire Line
+	2000 5950 1900 5950
+$Comp
+L power:+5V #PWR01
+U 1 1 605B67A6
+P 2000 5450
+F 0 "#PWR01" H 2000 5300 50  0001 C CNN
+F 1 "+5V" H 2015 5623 50  0000 C CNN
+F 2 "" H 2000 5450 50  0001 C CNN
+F 3 "" H 2000 5450 50  0001 C CNN
+	1    2000 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5450 2000 5550
+Wire Wire Line
+	2000 5550 1900 5550
+$Comp
+L power:GND #PWR02
+U 1 1 605B151A
+P 2000 6050
+F 0 "#PWR02" H 2000 5800 50  0001 C CNN
+F 1 "GND" H 2005 5877 50  0000 C CNN
+F 2 "" H 2000 6050 50  0001 C CNN
+F 3 "" H 2000 6050 50  0001 C CNN
+	1    2000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L splotch:MX-NoLED SW31
+U 1 1 6063F68B
+P 6200 5450
+F 0 "SW31" V 6214 5578 60  0000 L CNN
+F 1 "MX-NoLED" V 6288 5578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 5575 5425 60  0001 C CNN
+F 3 "" H 5575 5425 60  0001 C CNN
+	1    6200 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 60645321
+P 6250 5700
+F 0 "D31" V 6296 5630 50  0000 R CNN
+F 1 "1N4148" V 6205 5630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6250 5700 50  0001 C CNN
+F 3 "~" V 6250 5700 50  0001 C CNN
+	1    6250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60530DF5
+P 4800 6600
+F 0 "H1" H 4900 6646 50  0000 L CNN
+F 1 "MountingHole" H 4900 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6600 50  0001 C CNN
+F 3 "~" H 4800 6600 50  0001 C CNN
+	1    4800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60531FD6
+P 4800 6800
+F 0 "H2" H 4900 6846 50  0000 L CNN
+F 1 "MountingHole" H 4900 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 6800 50  0001 C CNN
+F 3 "~" H 4800 6800 50  0001 C CNN
+	1    4800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6053213A
+P 4800 7000
+F 0 "H3" H 4900 7046 50  0000 L CNN
+F 1 "MountingHole" H 4900 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4800 7000 50  0001 C CNN
+F 3 "~" H 4800 7000 50  0001 C CNN
+	1    4800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60532283
+P 5550 6600
+F 0 "H4" H 5650 6646 50  0000 L CNN
+F 1 "MountingHole" H 5650 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 6600 50  0001 C CNN
+F 3 "~" H 5550 6600 50  0001 C CNN
+	1    5550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 605325F7
+P 5550 6800
+F 0 "H5" H 5650 6846 50  0000 L CNN
+F 1 "MountingHole" H 5650 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 6800 50  0001 C CNN
+F 3 "~" H 5550 6800 50  0001 C CNN
+	1    5550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6053291F
+P 5550 7000
+F 0 "H6" H 5650 7046 50  0000 L CNN
+F 1 "MountingHole" H 5650 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 7000 50  0001 C CNN
+F 3 "~" H 5550 7000 50  0001 C CNN
+	1    5550 7000
+	1    0    0    -1  
+$EndComp
+Text Label 1900 5650 0    50   ~ 0
+SDA
+Text Label 1900 5850 0    50   ~ 0
+SCL
+$Comp
+L Device:R R1
+U 1 1 605B32E4
+P 1250 1500
+F 0 "R1" H 1320 1546 50  0000 L CNN
+F 1 "4.7K" H 1320 1455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1180 1500 50  0001 C CNN
+F 3 "~" H 1250 1500 50  0001 C CNN
+	1    1250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23017_SP U1
+U 1 1 605B8C85
+P 2450 2600
+F 0 "U1" H 2450 3881 50  0000 C CNN
+F 1 "MCP23017_SP" H 2450 3790 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2650 1600 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2650 1500 50  0001 L CNN
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1750 2400
+NoConn ~ 1750 2500
+Text Label 1050 1800 2    50   ~ 0
+SDA
+Text Label 1050 1900 2    50   ~ 0
+SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 605C09EE
+P 1650 3500
+F 0 "#PWR0101" H 1650 3250 50  0001 C CNN
+F 1 "GND" H 1655 3327 50  0000 C CNN
+F 2 "" H 1650 3500 50  0001 C CNN
+F 3 "" H 1650 3500 50  0001 C CNN
+	1    1650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3500 1650 3400
+Wire Wire Line
+	1650 3400 1750 3400
+Wire Wire Line
+	1750 3300 1650 3300
+Wire Wire Line
+	1650 3300 1650 3400
+Connection ~ 1650 3400
+Wire Wire Line
+	1750 3200 1650 3200
+Wire Wire Line
+	1650 3200 1650 3300
+Connection ~ 1650 3300
+$Comp
+L power:GND #PWR0102
+U 1 1 605C75F9
+P 2450 3800
+F 0 "#PWR0102" H 2450 3550 50  0001 C CNN
+F 1 "GND" H 2455 3627 50  0000 C CNN
+F 2 "" H 2450 3800 50  0001 C CNN
+F 3 "" H 2450 3800 50  0001 C CNN
+	1    2450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3800 2450 3750
+$Comp
+L power:+5V #PWR0103
+U 1 1 605CA742
+P 1250 2300
+F 0 "#PWR0103" H 1250 2150 50  0001 C CNN
+F 1 "+5V" H 1265 2473 50  0000 C CNN
+F 2 "" H 1250 2300 50  0001 C CNN
+F 3 "" H 1250 2300 50  0001 C CNN
+	1    1250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 605CDB5A
+P 2050 1350
+F 0 "#PWR0104" H 2050 1200 50  0001 C CNN
+F 1 "+5V" H 2065 1523 50  0000 C CNN
+F 2 "" H 2050 1350 50  0001 C CNN
+F 3 "" H 2050 1350 50  0001 C CNN
+	1    2050 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1500 2050 1500
+Wire Wire Line
+	2050 1500 2050 1350
+$Comp
+L Device:R R2
+U 1 1 605D77B7
+P 1550 1500
+F 0 "R2" H 1620 1546 50  0000 L CNN
+F 1 "4.7K" H 1620 1455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1480 1500 50  0001 C CNN
+F 3 "~" H 1550 1500 50  0001 C CNN
+	1    1550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 605D8610
+P 1250 1200
+F 0 "#PWR0105" H 1250 1050 50  0001 C CNN
+F 1 "+5V" H 1265 1373 50  0000 C CNN
+F 2 "" H 1250 1200 50  0001 C CNN
+F 3 "" H 1250 1200 50  0001 C CNN
+	1    1250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1350 1250 1250
+Wire Wire Line
+	1550 1350 1550 1250
+Wire Wire Line
+	1550 1250 1250 1250
+Connection ~ 1250 1250
+Wire Wire Line
+	1250 1250 1250 1200
+Wire Wire Line
+	1050 1800 1250 1800
+Wire Wire Line
+	1050 1900 1550 1900
+Wire Wire Line
+	1250 1800 1250 1650
+Connection ~ 1250 1800
+Wire Wire Line
+	1250 1800 1750 1800
+Wire Wire Line
+	1550 1900 1550 1650
+Connection ~ 1550 1900
+Wire Wire Line
+	1550 1900 1750 1900
+Wire Wire Line
+	6350 1900 6350 1700
+Wire Wire Line
+	6350 2400 6350 2200
+$Comp
+L power:GND #PWR09
+U 1 1 60589665
+P 6350 2400
+F 0 "#PWR09" H 6350 2150 50  0001 C CNN
+F 1 "GND" H 6355 2227 50  0000 C CNN
+F 2 "" H 6350 2400 50  0001 C CNN
+F 3 "" H 6350 2400 50  0001 C CNN
+	1    6350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 60588970
+P 6350 1700
+F 0 "#PWR08" H 6350 1550 50  0001 C CNN
+F 1 "+5V" H 6365 1873 50  0000 C CNN
+F 2 "" H 6350 1700 50  0001 C CNN
+F 3 "" H 6350 1700 50  0001 C CNN
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2200
+Connection ~ 6350 1900
+$Comp
+L Device:C C4
+U 1 1 605880BE
+P 6350 2050
+F 0 "C4" H 6465 2096 50  0000 L CNN
+F 1 "0.1u" H 6465 2005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 6388 1900 50  0001 C CNN
+F 3 "~" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 605875B8
+P 5950 2050
+F 0 "C3" H 6065 2096 50  0000 L CNN
+F 1 "4.7u" H 6065 2005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm" H 5988 1900 50  0001 C CNN
+F 3 "~" H 5950 2050 50  0001 C CNN
+	1    5950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 605F07A5
+P 1250 2550
+F 0 "R3" H 1320 2596 50  0000 L CNN
+F 1 "10K" H 1320 2505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1180 2550 50  0001 C CNN
+F 3 "~" H 1250 2550 50  0001 C CNN
+	1    1250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2700 1750 2700
+Wire Wire Line
+	1250 2400 1250 2300
+Wire Wire Line
+	7350 3800 7900 3800
+Connection ~ 7350 3800
+Wire Wire Line
+	7350 4300 7900 4300
+Connection ~ 7350 4300
+Wire Wire Line
+	7350 4800 7900 4800
+Connection ~ 7350 4800
+Wire Wire Line
+	7700 3200 7700 3400
+Connection ~ 7700 3400
+Wire Wire Line
+	7700 3400 7700 3900
+Connection ~ 7700 3900
+Wire Wire Line
+	7700 3900 7700 4400
+Text Label 7700 3200 1    50   ~ 0
+Col7
+Wire Wire Line
+	6600 4900 6600 5400
+$Comp
+L splotch:MX-NoLED SW32
+U 1 1 60619EE1
+P 6750 5450
+F 0 "SW32" V 6764 5578 60  0000 L CNN
+F 1 "MX-NoLED" V 6838 5578 20  0000 L CNN
+F 2 "splotch:MX-1.25U-NoLED" H 6125 5425 60  0001 C CNN
+F 3 "" H 6125 5425 60  0001 C CNN
+	1    6750 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 6061A5AA
+P 6800 5700
+F 0 "D32" V 6846 5630 50  0000 R CNN
+F 1 "1N4148" V 6755 5630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 6800 5700 50  0001 C CNN
+F 3 "~" V 6800 5700 50  0001 C CNN
+	1    6800 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6250 5800
+Wire Wire Line
+	6250 5800 6800 5800
+$Comp
+L splotch:MX-NoLED SW33
+U 1 1 60624305
+P 7300 5450
+F 0 "SW33" V 7314 5578 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 5578 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 6675 5425 60  0001 C CNN
+F 3 "" H 6675 5425 60  0001 C CNN
+	1    7300 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 6062504B
+P 7350 5700
+F 0 "D33" V 7396 5630 50  0000 R CNN
+F 1 "1N4148" V 7305 5630 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 7350 5700 50  0001 C CNN
+F 3 "~" V 7350 5700 50  0001 C CNN
+	1    7350 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L splotch:MX-NoLED SW34
+U 1 1 60625584
+P 5100 5950
+F 0 "SW34" V 5114 6078 60  0000 L CNN
+F 1 "MX-NoLED" V 5188 6078 20  0000 L CNN
+F 2 "splotch:MX-1U-NoLED" H 4475 5925 60  0001 C CNN
+F 3 "" H 4475 5925 60  0001 C CNN
+	1    5100 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 606297CF
+P 5150 6200
+F 0 "D34" V 5196 6130 50  0000 R CNN
+F 1 "1N4148" V 5105 6130 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 5150 6200 50  0001 C CNN
+F 3 "~" V 5150 6200 50  0001 C CNN
+	1    5150 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6062F474
+P 2500 6650
+F 0 "#PWR0106" H 2500 6400 50  0001 C CNN
+F 1 "GND" H 2505 6477 50  0000 C CNN
+F 2 "" H 2500 6650 50  0001 C CNN
+F 3 "" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW28
+U 1 1 606333C2
+P 3250 6550
+F 0 "SW28" H 3250 6917 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3250 6826 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 3100 6710 50  0001 C CNN
+F 3 "~" H 3250 6810 50  0001 C CNN
+	1    3250 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5800 5150 5800
+Text Label 2950 6450 2    50   ~ 0
+RotaryA
+Text Label 2950 6650 2    50   ~ 0
+RotaryB
+Wire Wire Line
+	2950 6550 2500 6550
+$Comp
+L Device:D_Small D28
+U 1 1 60642F05
+P 3650 6750
+F 0 "D28" V 3696 6680 50  0000 R CNN
+F 1 "1N4148" V 3605 6680 50  0000 R CNN
+F 2 "splotch:D_DO-35_SOD27_P5.08mm_Horizontal" V 3650 6750 50  0001 C CNN
+F 3 "~" V 3650 6750 50  0001 C CNN
+	1    3650 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 6650 3650 6650
+Text Label 3650 6950 3    50   ~ 0
+Row5
+Text Label 3550 6450 0    50   ~ 0
+Col1
+Wire Wire Line
+	6800 5800 7350 5800
+Connection ~ 6800 5800
+Wire Wire Line
+	7150 4900 7150 5400
+Connection ~ 7150 4900
+Wire Wire Line
+	2500 6550 2500 6650
+Wire Wire Line
+	3650 6950 3650 6850
+Connection ~ 5150 5800
+Wire Wire Line
+	5150 5800 5500 5800
+Connection ~ 5700 5800
+Wire Wire Line
+	5700 5800 6250 5800
+Wire Wire Line
+	4950 4900 4950 5400
+Connection ~ 4950 4900
+Connection ~ 4950 5400
+Wire Wire Line
+	4950 5400 4950 5900
+Wire Wire Line
+	5150 6300 5500 6300
+Wire Wire Line
+	5500 6300 5500 5800
+Connection ~ 5500 5800
+Wire Wire Line
+	5500 5800 5700 5800
+Wire Wire Line
+	5950 1900 6350 1900
+Wire Wire Line
+	5950 2200 6350 2200
+Text Label 3150 3400 0    50   ~ 0
+Row1
+Text Label 3150 3300 0    50   ~ 0
+Row2
+Text Label 3150 3200 0    50   ~ 0
+Row3
+Text Label 3150 3100 0    50   ~ 0
+Row4
+Text Label 3150 3000 0    50   ~ 0
+Row5
+Text Label 3150 2900 0    50   ~ 0
+Col1
+Text Label 3150 2800 0    50   ~ 0
+Col6
+Text Label 3150 2700 0    50   ~ 0
+Col5
+Text Label 3150 2400 0    50   ~ 0
+Col2
+Text Label 3150 2300 0    50   ~ 0
+Col3
+Text Label 3150 2200 0    50   ~ 0
+Col4
+NoConn ~ 3150 1800
+Text Label 3150 2500 0    50   ~ 0
+Col7
+NoConn ~ 3150 1900
+Text Label 3150 2000 0    50   ~ 0
+RotaryB
+Text Label 3150 2100 0    50   ~ 0
+RotaryA
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 607B3CE4
+P 1900 1200
+F 0 "#FLG0101" H 1900 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1373 50  0000 C CNN
+F 2 "" H 1900 1200 50  0001 C CNN
+F 3 "~" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1500 1900 1500
+Connection ~ 2050 1500
+Wire Wire Line
+	1900 1200 1900 1500
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 607BB2C4
+P 2150 3750
+F 0 "#FLG0102" H 2150 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 2150 3923 50  0000 C CNN
+F 2 "" H 2150 3750 50  0001 C CNN
+F 3 "~" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3750 2150 3750
+Connection ~ 2450 3750
+Wire Wire Line
+	2450 3750 2450 3700
 $EndSCHEMATC
