@@ -38,7 +38,7 @@ There are no plate or full case files (sandwich style is hard with exposed compo
 
 # Schematic
 
-There is a PDF of the [schematic of the left half here](assets/schematic-left.pdf) and the [schematic of the right half here](assets/schematic-right.pdf).
+There is a PDF of the [schematic of the left half here](assets/schematic-left.pdf) and the [schematic of the right half here](assets/schematic-right.pdf). There is a [bill of materials (BOM) here](BOM.md).
 
 # AVR Notes
 
