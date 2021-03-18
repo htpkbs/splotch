@@ -1,10 +1,10 @@
 # Overviews
 
-A split keyboard with a layout inspired by the [Iris](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard) and through-hole components inspired by the [plaid](https://github.com/hsgw/plaid). It may or may not be easier to find keycap sets that fit this layout with the correct legends (most base GMK sets should work, with the addition of space keys).
+A split keyboard with a layout inspired by the [Iris](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard) and through-hole components inspired by the [plaid](https://github.com/hsgw/plaid). It may or may not be easier to find keycap sets that fit this layout with the correct legends (most base GMK sets should work, with the addition of space keys). It also has a rotary encoder on the right half.
 
 # Key Layout
 
-The key layout looks like this. (Thanks to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) for the image.)
+The key layout looks like this (rotary encoder not included). (Thanks to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) for the image.)
 
 ![Key layout](assets/layout.png)
 
