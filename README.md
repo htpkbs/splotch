@@ -1,3 +1,9 @@
+# NB!
+
+The layout of this doesn't work! The row/column hookups to the I/O expander aren't split between the `A` and `B` GPIO ports, so they don't work with the typical custom `matrix.c` that's used for other keyboards that use an I/O expander.
+
+This particular PCB has been effectively abandoned ([see the nikon PCB for a somewhat similar split ergonomic board](https://github.com/htpkbs/nikon)) so this repository will be archived.
+
 # Overview
 
 A split keyboard with a layout inspired by the [Iris](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard) and through-hole components inspired by the [plaid](https://github.com/hsgw/plaid). It may or may not be easier to find keycap sets that fit this layout with the correct legends (most base GMK sets should work, with the addition of space keys). It also has a rotary encoder on the right half.
